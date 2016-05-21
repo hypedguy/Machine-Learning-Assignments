@@ -1,0 +1,5 @@
+devtools::install_github('rweyant/musixmatch')
+library(musixmatch)
+set_apikey(f75695085d80a6d99d92c2fce6a88858)
+get_track_lyrics(15445219)
+install xml2
